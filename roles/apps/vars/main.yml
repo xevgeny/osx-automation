@@ -26,6 +26,7 @@ cask_apps:
   - iterm2
   - java
   - intellij-idea-ce
+  - slack
 
   # Miscellaneous
   - spectacle
