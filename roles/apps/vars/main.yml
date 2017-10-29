@@ -34,3 +34,4 @@ cask_apps:
   - veracrypt
   - telegram
   - transmission
+  - google-backup-and-sync
