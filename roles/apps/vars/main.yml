@@ -14,6 +14,7 @@ apps:
 cask_apps:
   # Browsers
   - google-chrome
+  - firefox
 
   # Media
   - spotify
