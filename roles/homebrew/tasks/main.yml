@@ -1,0 +1,15 @@
+---
+- name: Ensure homebrew is updated 
+  homebrew:
+    state: latest
+    update_homebrew: yes
+
+- name: Tap homebrew caskroom/cask
+  homebrew_tap:
+    tap: "caskroom/cask"
+
+- import_tasks: apps.yml
+  tags: apps
+
+- import_tasks: dev-tools.yml
+  tags: dev-tools

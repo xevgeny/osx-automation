@@ -1,0 +1,17 @@
+---
+- name: Install dev tools
+  homebrew:
+    name:
+      - htop
+      - tree
+      - ag
+      - tmux
+      - tig
+    state: latest
+
+- name: Install cask dev tools 
+  homebrew_cask:
+    name:
+      - slack
+      - iterm2
+    state: latest

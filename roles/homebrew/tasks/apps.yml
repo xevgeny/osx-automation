@@ -1,0 +1,23 @@
+---
+- name: Install homebrew cask applications
+  homebrew_cask:
+    name: "{{item}}"
+      # Browsers
+      - firefox
+      # Media
+      - spotify
+      - vlc
+      # Office
+      - libreoffice
+      # Messengers
+      - telegram
+      # Miscellaneous
+      - spectacle
+      - flux 
+      # Security
+      - veracrypt
+      - osxfuse # required by veracrypt
+      - keepassxc
+      # VPN
+      - tunnelblick
+    state: latest
