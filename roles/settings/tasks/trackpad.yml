@@ -1,0 +1,13 @@
+---
+- name: "Trackpad: Tap to click"
+  osx_defaults:
+    domain: com.apple.AppleMultitouchTrackpad
+    key: Clicking
+    type: int 
+    value: 1 
+
+- name: "Trackpad: Disable natural scroll"
+  osx_defaults: 
+    key: com.apple.swipescrolldirection
+    type: int 
+    value: 0 

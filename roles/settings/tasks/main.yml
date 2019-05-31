@@ -1,0 +1,4 @@
+---
+- import_tasks: system.yml
+- import_tasks: keyboard.yml
+- import_tasks: trackpad.yml
