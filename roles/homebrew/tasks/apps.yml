@@ -4,6 +4,7 @@
     name: "{{item}}"
       # Browsers
       - firefox
+      - google-chrome
       # Media
       - spotify
       - vlc
@@ -20,4 +21,6 @@
       - keepassxc
       # VPN
       - tunnelblick
+      # Cloud
+      - nextcloud
     state: latest
