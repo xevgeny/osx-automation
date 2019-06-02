@@ -13,3 +13,7 @@
     name:
       - slack
       - iterm2
+
+- name: Install Haskell
+  homebrew:
+    name: ghc
