@@ -1,0 +1,35 @@
+---
+- name: "Dock: Automatically hide the Dock"
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide 
+    type: bool
+    value: true
+
+- name: "Dock: Don't show recent applications" 
+  osx_defaults:
+    domain: com.apple.dock
+    key: show-recents 
+    type: bool
+    value: false
+
+- name: "Dock: Remove auto-hide delay" 
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide-delay 
+    type: float
+    value: 0
+
+- name: "Dock: Remove hide animation" 
+  osx_defaults:
+    domain: com.apple.dock
+    key: autohide-time-modifier
+    type: float
+    value: 0
+
+- name: "Dock: Tile size" 
+  osx_defaults:
+    domain: com.apple.dock
+    key: tilesize
+    type: float
+    value: 36
