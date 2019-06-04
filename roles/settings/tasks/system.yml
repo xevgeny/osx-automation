@@ -1,1 +1,20 @@
 ---
+- name: "Show all filename extensions"
+  osx_defaults:
+    key: AppleShowAllExtensions
+    type: bool
+    value: true
+
+- name: "Finder: Show hidden files"
+  osx_defaults:
+    domain: com.apple.finder
+    key: AppleShowAllFiles
+    type: bool
+    value: true
+
+- name: "Finder: Display full path as title"
+  osx_defaults:
+    domain: com.apple.finder
+    key: _FXShowPosixPathInTitle
+    type: bool
+    value: true

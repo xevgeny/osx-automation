@@ -1,5 +1,8 @@
 ---
 - hosts: local
   roles: 
-    - homebrew
-    - settings
+    - role: homebrew
+      tags: homebrew
+
+    - role: settings
+      tags: settings
