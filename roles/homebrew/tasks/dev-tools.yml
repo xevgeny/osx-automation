@@ -15,13 +15,14 @@
       - slack
       - iterm2
 
-- name: Tap caskroom versions
+- name: Tap ApoptOpenJDK versions
   homebrew_tap:
-    name: caskroom/versions
+    name: AdoptOpenJDK/openjdk
+  when: "install_java|bool"
 
 - name: Install Java
   homebrew_cask:
-    name: java8
+    name: adoptopenjdk8
   when: "install_java|bool"
 
 - name: Install Scala
