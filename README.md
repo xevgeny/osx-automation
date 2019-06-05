@@ -33,4 +33,5 @@ install_dev_tools: yes
 install_java: yes
 install_scala: yes
 install_haskell: yes
+...
 ```

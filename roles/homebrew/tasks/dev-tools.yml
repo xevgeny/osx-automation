@@ -2,11 +2,12 @@
 - name: Install dev tools
   homebrew:
     name:
+      - git
+      - tig
       - htop
       - tree
       - ag
       - tmux
-      - tig
 
 - name: Install cask dev tools 
   homebrew_cask:
@@ -14,6 +15,23 @@
       - slack
       - iterm2
 
+- name: Tap caskroom versions
+  homebrew_tap:
+    name: caskroom/versions
+
+- name: Install Java
+  homebrew_cask:
+    name: java8
+  when: "install_java|bool"
+
+- name: Install Scala
+  homebrew:
+    name:
+      - scala
+      - sbt
+  when: "install_scala|bool"
+
 - name: Install Haskell
   homebrew:
     name: ghc
+  when: "install_haskell|bool"

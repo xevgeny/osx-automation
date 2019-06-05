@@ -9,7 +9,9 @@
     tap: "caskroom/cask"
 
 - import_tasks: apps.yml
+  when: "install_apps|bool"
   tags: apps
 
 - import_tasks: dev-tools.yml
+  when: "install_dev_tools|bool"
   tags: dev-tools
