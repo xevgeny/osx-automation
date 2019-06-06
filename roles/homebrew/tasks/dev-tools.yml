@@ -2,7 +2,6 @@
 - name: Install dev tools
   homebrew:
     name:
-      - git
       - tig
       - htop
       - tree
