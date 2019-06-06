@@ -26,10 +26,3 @@
     key: autohide-time-modifier
     type: float
     value: 0
-
-- name: "Dock: Tile size" 
-  osx_defaults:
-    domain: com.apple.dock
-    key: tilesize
-    type: float
-    value: 36
