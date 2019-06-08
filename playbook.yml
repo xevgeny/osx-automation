@@ -8,3 +8,6 @@
 
     - role: settings
       tags: settings
+
+    - role: dotfiles
+      tags: dotfiles

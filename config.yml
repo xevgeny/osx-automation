@@ -1,6 +1,12 @@
 ---
+# apps
 install_apps: yes
+# dev-tools
 install_dev_tools: yes
 install_java: yes
 install_scala: yes
 install_haskell: yes
+# dotfiles
+install_dotfiles: yes
+install_tmux: yes
+install_fish_shell: yes

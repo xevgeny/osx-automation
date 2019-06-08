@@ -1,0 +1,6 @@
+---
+- import_tasks: tmux.yml
+  when: "install_tmux|bool"
+
+- import_tasks: fish-shell.yml
+  when: "install_fish_shell|bool"

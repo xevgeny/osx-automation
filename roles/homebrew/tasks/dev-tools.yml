@@ -6,7 +6,6 @@
       - htop
       - tree
       - ag
-      - tmux
 
 - name: Install cask dev tools 
   homebrew_cask:

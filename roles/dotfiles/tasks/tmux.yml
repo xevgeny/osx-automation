@@ -1,0 +1,11 @@
+---
+- name: Install tmux
+  homebrew:
+    name:
+      - tmux
+
+- name: Configure tmux
+  template:
+    src: tmux.conf.j2
+    dest: ~/.tmux.conf
+ 
