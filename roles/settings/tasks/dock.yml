@@ -18,11 +18,11 @@
     domain: com.apple.dock
     key: autohide-delay 
     type: float
-    value: 0
+    value: 0 # Default is 0.24
 
-- name: "Dock: Remove hide animation" 
+- name: "Dock: Decrease hide animation" 
   osx_defaults:
     domain: com.apple.dock
     key: autohide-time-modifier
     type: float
-    value: 0
+    value: 0.4
