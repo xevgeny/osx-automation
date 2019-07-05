@@ -12,6 +12,7 @@
     name:
       - slack
       - iterm2
+      - docker
 
 - name: Tap ApoptOpenJDK versions
   homebrew_tap:
