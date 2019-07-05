@@ -35,3 +35,9 @@ install_scala: yes
 install_haskell: yes
 ...
 ```
+
+## Dotfiles
+
+### Fish
+
+You will need to add `$(brew --prefix)/bin/fish` to `/etc/shells.` Then run: `chsh -s $(brew --prefix)/bin/fish` to make fish your default shell.
