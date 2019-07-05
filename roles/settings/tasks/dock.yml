@@ -26,3 +26,10 @@
     key: autohide-time-modifier
     type: float
     value: 0.4
+
+- name: "Dock: minimize windows into app icons"
+  osx_defaults:
+    domain: com.apple.dock
+    key: minimize-to-application
+    type: bool
+    value: true
