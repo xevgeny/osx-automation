@@ -9,5 +9,5 @@
 - name: "Trackpad: Disable natural scroll"
   osx_defaults: 
     key: com.apple.swipescrolldirection
-    type: int 
-    value: 0 
+    type: bool
+    value: false
