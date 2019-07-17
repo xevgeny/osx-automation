@@ -8,6 +8,10 @@
   homebrew_tap:
     tap: "caskroom/cask"
 
+- name: Tap cask fonts
+  homebrew_tap:
+    tap: "homebrew/cask-fonts"
+
 - import_tasks: apps.yml
   when: "install_apps|bool"
   tags: apps

@@ -38,6 +38,11 @@ install_haskell: yes
 
 ## Dotfiles
 
+### Fonts
+
+- https://github.com/powerline/fonts
+- https://github.com/Homebrew/homebrew-cask-fonts
+
 ### Fish
 
 You will need to add `$(brew --prefix)/bin/fish` to `/etc/shells.` Then run: `chsh -s $(brew --prefix)/bin/fish` to make fish your default shell.
