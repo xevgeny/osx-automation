@@ -41,3 +41,20 @@ install_haskell: yes
 ### Fish
 
 You will need to add `$(brew --prefix)/bin/fish` to `/etc/shells.` Then run: `chsh -s $(brew --prefix)/bin/fish` to make fish your default shell.
+
+Install oh-my-fish:
+```
+curl -L https://get.oh-my.fish > install
+fish install --path=~/.local/share/omf --config=~/.config/omf
+```
+
+Git aliases:
+```
+omf install https://github.com/jhillyerd/plugin-git
+```
+
+Links:
+
+- Fish Shell: https://fishshell.com/
+- oh-my-fish: https://github.com/oh-my-fish/oh-my-fish
+- git aliases: https://github.com/jhillyerd/plugin-git
