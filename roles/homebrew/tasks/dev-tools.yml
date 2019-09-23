@@ -13,6 +13,9 @@
       - slack
       - iterm2
       - docker
+      # Editors
+      - visual-studio-code
+      - intellij-idea-ce
 
 - name: Tap ApoptOpenJDK versions
   homebrew_tap:
