@@ -18,7 +18,8 @@ Defaults tweaks:
 ## Installation
 
 1. Ensure Apple's command line tools are installed
-2. Install Ansible
+2. Install Brew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. Install Ansible: `brew install ansible`
 3. `make install`
 
 You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. The tags available are `homebrew`, `settings` and `dotfiles`.
